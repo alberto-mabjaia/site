@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, tahoma;
+}
+/*Coluna 1 barra topo*/
+.nav-top{
+ background-color: rgb(68, 71, 71);
+ height: 40px;;
+ color: aliceblue;   
+}
+.coluna1{
+    align-items: center;
+}
+
+.nav-top p{
+    float: left;
+}
+.search {
+    float: right;
+}
+.nav-top img {
+    float: right;
+    margin: 5px;
+}
+.social{
+    border-radius: 10px;
+}
+.coluna1 p{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.coluna1 input[type=text]{
+    margin-top: 8px;
+    background-color: transparent;
+    border: 1px solid rgb(96, 97, 96);
+    background-image: url('../img/Explorer.ico');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 176px;
+
+}
+
+/*Coluna 2 menu principal*/
+.main-nav{
+    display: inline-block;
+}
+.main-nav ul{
+    display: inline;
+    margin-left: 186px;
+
+}
+
+.main-nav  li{
+    display: inline;
+    margin: 14px;
+    padding: 32px 0px;
+ 
+    
+}
+.coluna2{
+    width: 100%;
+    background-color: #fff;
+    height: 88px;
+}
+.logo{
+    width: 120px;
+    height: 50px;
+    margin-right: 50px;
+}
+.main-nav ul li:hover{
+    background-color: rgb(224, 223, 224);
+    border-bottom: 3px solid silver ;
+}
+.main-nav  a{
+    text-decoration: none;
+}
+.apresetantion h2{
+    margin-left: 200px;
+}
+
+/*Apresentation */
+.apresetantion ul{
+    margin-left: 250px;
+    list-style: ;
+}
+
+.apresetantion button{
+    margin-left: 250px;
+    background-color: rgb(189, 85, 44);
+    border: 1px;
+    height: 40px;
+    width: 110px;
+}
+
+.apresetantion {
+    background-image: url('../img/apresentation.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    -webkit-animation-name: example;
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-duration: 4s;
+
+}
+/*portifolio*/
+.portifolio {
+    align-items: center;
+    margin: 4% 15%;
+}
+
+.foto1,
+.foto2,
+.foto3{
+    float: left;
+}
+
+
+
+.coluna5 {
+    display: inline-block;
+    margin: 13px 15%
+}
+/*footer*/
+
+.all-footer{
+    background-color: rgb(59, 161, 184);
+    height: 20%;
+}
+/*Animations*/
+
+
